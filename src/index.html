@@ -26,9 +26,18 @@
     // Just one explosion, please.
     //emojisplosion();
 
-    // Commence hearts explosions!
+    // Commence hearts anti-gravity explosions!
     emojisplosions({
       emojis: ["💖", "💕", "💗", "💓", "💝"],
+      physics: {
+        gravity: -0.35,
+        initialVelocities: {
+          y: {
+            max: 14,
+            min: 11.7,
+          },
+        },
+      },
     });
   </script>
 
