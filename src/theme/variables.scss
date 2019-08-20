@@ -1,0 +1,118 @@
+// Ionic Variables and Theming. For more info, please see:
+// https://beta.ionicframework.com/docs/theming/color-generator/
+/** Ionic CSS Variables **/
+
+:root {
+  /** primary **/
+  --ion-color-primary: #005000;
+  --ion-color-primary-rgb: 0, 80, 0;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #004600;
+  --ion-color-primary-tint: #1a621a;
+  /** secondary **/
+  --ion-color-secondary: #0cd1e8;
+  --ion-color-secondary-rgb: 12, 209, 232;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #0bb8cc;
+  --ion-color-secondary-tint: #24d6ea;
+  /** tertiary **/
+  --ion-color-tertiary: #d5ffd5;
+  --ion-color-tertiary-rgb: 213, 255, 213;
+  --ion-color-tertiary-contrast: #000000;
+  --ion-color-tertiary-contrast-rgb: 0, 0, 0;
+  --ion-color-tertiary-shade: #bbe0bb;
+  --ion-color-tertiary-tint: #d9ffd9;
+  /** success **/
+  --ion-color-success: #10dc60;
+  --ion-color-success-rgb: 16, 220, 96;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #0ec254;
+  --ion-color-success-tint: #28e070;
+  /** warning **/
+  --ion-color-warning: #ffce00;
+  --ion-color-warning-rgb: 255, 206, 0;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255, 255, 255;
+  --ion-color-warning-shade: #e0b500;
+  --ion-color-warning-tint: #ffd31a;
+  /** danger **/
+  --ion-color-danger: #f53d3d;
+  --ion-color-danger-rgb: 245, 61, 61;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #d83636;
+  --ion-color-danger-tint: #f65050;
+  /** dark **/
+  --ion-color-dark: #222428;
+  --ion-color-dark-rgb: 34, 34, 34;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #1e2023;
+  --ion-color-dark-tint: #383a3e;
+  /** medium **/
+  --ion-color-medium: #989aa2;
+  --ion-color-medium-rgb: 152, 154, 162;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #86888f;
+  --ion-color-medium-tint: #a2a4ab;
+  /** light **/
+  --ion-color-light: #f4f5f8;
+  --ion-color-light-rgb: 244, 244, 244;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #d7d8da;
+  --ion-color-light-tint: #f5f6f9;
+  --ion-background-color: #d5ffd5;
+  --ion-item-ios-background-color: #000; //#007500;
+  --ion-item-md-background-color: #000; //#007500;
+  /* Material Design Toolbar Variables Ref: https://github.com/ionic-team/ionic-stencil-conference-app/blob/master/src/global.css */
+  --ion-toolbar-md-background-color: #005000; //=> --ion-color-primary
+  --ion-toolbar-md-text-color: #fff
+}
+
+//Ionic 4 - A list of all the top level application colors
+/*
+Ref: https://ionicframework.com/docs/theming/advanced
+Name	Description
+--ion-background-color	             Background color of entire app
+--ion-background-color-rgb	         Background color of entire app, rgb format
+--ion-text-color	                   Text color of entire app
+--ion-text-color-rgb	               Text color of entire app, rgb format
+--ion-backdrop-color	               Color of the Backdrop component
+--ion-overlay-background-color	     Background color of the overlays
+--ion-border-color	                 Border color
+--ion-box-shadow-color	             Box shadow color
+--ion-tab-bar-background	           Background of the Tab bar
+--ion-tab-bar-background-focused	   Background of the focused Tab bar
+--ion-tab-bar-border-color	         Border color of the Tab bar
+--ion-tab-bar-color	                 Color of the Tab bar
+--ion-tab-bar-color-activated	       Color of the activated Tab
+--ion-toolbar-background	           Background of the Toolbar
+--ion-toolbar-border-color	         Border color of the Toolbar
+--ion-toolbar-color	                 Color of the components in the Toolbar
+--ion-toolbar-color-activated	       Color of the activated components in the Toolbar
+--ion-toolbar-color-unchecked	       Color of the unchecked components in the Toolbar
+--ion-toolbar-color-checked	         Color of the checked components in the Toolbar
+--ion-item-background	               Background of the Item
+--ion-item-background-activated	     Background of the activated Item
+--ion-item-border-color	             Border color of the Item
+--ion-item-color	                   Color of the components in the Item
+--ion-placeholder-color	             Color of the placeholder in inputs
+
+? --ion-tabbar-background-color
+? --ion-tabbar-text-color
+? --ion-tabbar-text-color-active
+? --ion-toolbar-background-color
+? --ion-toolbar-color-active
+? --ion-toolbar-color-inactive
+? --ion-toolbar-text-color
+? --ion-item-background-color
+? --ion-item-background-color-active
+? --ion-placeholder-text-color
+*/
+
+// Ref: https://stackoverflow.com/questions/32378556/how-do-i-change-ionic-slider-pager-dots-circles-color-when-active-to-yellow-and
