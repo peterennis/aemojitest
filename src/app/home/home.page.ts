@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { emojisplosion, emojisplosions } from 'emojisplosion';
+import { emojisplosion, emojisplosions } from 'emojisplosion';
 
 @Component({
   selector: 'app-home',
@@ -12,9 +12,9 @@ export class HomePage implements OnInit {
 
   ngOnInit() {
     // Just one explosion, please.
-    //emojisplosion();
+    emojisplosion();
 
     // Commence explosions!
-    //emojisplosions();
+    emojisplosions();
   }
 }
