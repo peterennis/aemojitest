@@ -1,6 +1,6 @@
 {
   "name": "aemojitest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "adaept",
   "homepage": "https://adaept.com/",
   "scripts": {
@@ -25,7 +25,7 @@
     "@ionic-native/status-bar": "^5.12.0",
     "@ionic/angular": "^4.7.4",
     "core-js": "^3.2.1",
-    "emojisplosion": "^1.1.2",
+    "emojisplosion": "^1.2.0",
     "rxjs": "~6.5.2",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
